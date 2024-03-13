@@ -2,7 +2,6 @@
 
 import { experiences } from "@/constants";
 import {
-  fadeIn,
   slideInFromLeft,
   slideInFromRight,
   textVariant,

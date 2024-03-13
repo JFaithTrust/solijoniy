@@ -13,7 +13,6 @@ import {
 import { SparklesIcon } from "@heroicons/react/24/solid";
 
 const Projects = () => {
-  // afforizm
   const text = "Fall seven times and stand up eight.";
   return (
     <div

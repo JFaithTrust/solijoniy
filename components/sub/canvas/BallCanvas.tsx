@@ -12,9 +12,9 @@ interface Props {
 }
 
 const BallCanvas = ({ icon }: Props) => {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-  });
+  // const { ref, inView } = useInView({
+  //   triggerOnce: true,
+  // });
  
   return (
       <Canvas
