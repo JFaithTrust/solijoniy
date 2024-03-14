@@ -261,6 +261,27 @@ const projects = [
     image: '/delixi.jpg',
     source_code_link: "https://github.com/JFaithTrust/delixi",
   },
+  {
+    name: "Delixi - Electric",
+    description:
+        "Delixi - Electric is a React project that offers valuable information about electric products. It is a promising platform dedicated to empowering users with insights into the world of electrical products.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: '/delixi.jpg',
+    source_code_link: "https://github.com/JFaithTrust/delixi",
+  },
 ];
 
 
