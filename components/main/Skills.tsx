@@ -17,7 +17,7 @@ const Skills = () => {
     >
       <SkillText />
       <div>
-        <div className="flex flex-row justify-center flex-wrap mt-4 gap-10 items-center">
+        <div className="grid sm:grid-cols-6 grid-cols-3 justify-center flex-wrap mt-4 gap-10 items-center">
           {Skill_data.map((image, index) => (
             <SkillDataProvider
               key={index}
@@ -29,7 +29,7 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap mt-4 gap-8 items-center">
+        <div className="grid sm:grid-cols-6 grid-cols-3 justify-center flex-wrap mt-4 gap-10 items-center">
           {Frontend_skill.map((image, index) => (
             <SkillDataProvider
               key={index}
@@ -40,7 +40,7 @@ const Skills = () => {
             />
           ))}
         </div>
-        <div className="flex flex-row justify-center flex-wrap mt-4 gap-6 items-center">
+        <div className="grid sm:grid-cols-6 grid-cols-3 justify-center flex-wrap mt-4 gap-10 items-center">
           {Backend_skill.map((image, index) => (
             <SkillDataProvider
               key={index}
@@ -53,7 +53,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="flex flex-row relative items-center justify-center w-full h-full">
-      <div className="flex flex-row justify-around flex-wrap sm:mt-4 mt-0 gap-5 items-center sm:min-h-[700px] min-h-[450px]">
+      <div className="flex flex-row justify-around flex-wrap sm:mt-4 mt-0 gap-5 items-center sm:min-h-[700px] min-h-[300px]">
           <Image src="/bg.svg" alt="skill" fill />
         </div>
     </div>

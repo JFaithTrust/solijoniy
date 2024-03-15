@@ -44,17 +44,17 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-2">
             <div className="rounded-full p-2 bg-[#7289da] cursor-pointer">
-              <a href="" target="_blank">
+              <a href="https://discord.com/users/971467894342959167" target="_blank">
                 <FaDiscord color="#fff" />
               </a>
             </div>
             <div className="rounded-full p-2 bg-[#229ED9] cursor-pointer">
-              <a href="" target="_blank">
+              <a href="https://t.me/JFaithTrust" target="_blank">
                 <FaTelegramPlane color="#fff" />
               </a>
             </div>
             <div className="rounded-full p-2 bg-[#0A66C2] cursor-pointer">
-              <a href="" target="_blank">
+              <a href="https://www.linkedin.com/in/jahongir-solijoniy-2a5722293/" target="_blank">
                 <FaLinkedinIn color="#fff" />
               </a>
             </div>

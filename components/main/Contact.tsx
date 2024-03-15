@@ -74,12 +74,12 @@ const Contact = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="xl:mt-12 flex lg:flex-row flex-col-reverse lg:gap-10 overflow-hidden relative z-20 h-full w-full items-center justify-center mb-20"
+      className="xl:mt-12 flex xl:flex-row flex-col-reverse lg:gap-10 overflow-hidden z-20 mb-20 container mx-auto items-stretch"
     >
       <ToastContainer position="bottom-right" />
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="bg-black-100 p-8 rounded-2xl md:w-[540px] w-fit"
+        className="bg-black-100 p-8 rounded-2xl flex-[0.75]"
       >
         <p
           className={
@@ -146,7 +146,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:h-auto md:h-[550px] h-[350px] md:w-[560px] w-fit"
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>

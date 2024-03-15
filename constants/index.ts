@@ -51,12 +51,6 @@ export const Skill_data = [
     width: 60,
     height: 60,
   },
-  {
-    skill_name: "Next JS",
-    Image: "/next-js.svg",
-    width: 80,
-    height: 60,
-  },
 ];
 
 export const Frontend_skill = [
@@ -64,12 +58,12 @@ export const Frontend_skill = [
     skill_name: "Material UI",
     Image: "/material-ui.svg",
     width: 60,
-    height: 56,
+    height: 60,
   },
   {
     skill_name: "Tailwind CSS",
     Image: "/tailwind.svg",
-    width: 65,
+    width: 60,
     height: 60,
   },
   {
@@ -103,13 +97,13 @@ export const Backend_skill = [
     skill_name: "Chart js",
     Image: "/chart.svg",
     width: 60,
-    height: 70,
+    height: 60,
   },
   {
     skill_name: "Framer Motion",
     Image: "/motion.svg",
     width: 60,
-    height: 50,
+    height: 60,
   },
   {
     skill_name: "Three js",
@@ -126,7 +120,13 @@ export const Backend_skill = [
   {
     skill_name: "Figma",
     Image: "/figma.svg",
-    width: 53,
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "Next JS",
+    Image: "/next-js.svg",
+    width: 80,
     height: 60,
   },
 ];
@@ -248,7 +248,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: '/delixi.jpg',
+    image: '/delixiImage.jpg',
     source_code_link: "https://github.com/JFaithTrust/delixi",
   },
   {
@@ -269,7 +269,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: '/delixi.jpg',
+    image: '/conferenceImage.jpg',
     source_code_link: "https://conference-app-delta.vercel.app/",
   },
   {
@@ -290,7 +290,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: '/delixi.jpg',
+    image: '/uzWorksImage.jpg',
     source_code_link: "https://www.uzworks.uz/",
   },
 ];
