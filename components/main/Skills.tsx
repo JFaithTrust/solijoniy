@@ -53,11 +53,11 @@ const Skills = () => {
         </div>
       </div>
       <div className="flex flex-row relative items-center justify-center w-full h-full">
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center min-h-[700px]">
+      <div className="flex flex-row justify-around flex-wrap sm:mt-4 mt-0 gap-5 items-center sm:min-h-[700px] min-h-[450px]">
           <Image src="/bg.svg" alt="skill" fill />
         </div>
     </div>
-      <div className="w-full h-full absolute">
+      <div className="w-full h-full absolute sm:block hidden">
         <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
           <video
             className="w-full h-auto"
